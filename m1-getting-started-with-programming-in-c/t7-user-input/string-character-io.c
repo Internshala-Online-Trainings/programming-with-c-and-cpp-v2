@@ -19,9 +19,9 @@ int main() {
 	scanf("%[^\n]%*c", name);
 
 	printf("Enter the size of the pizza as either 'S', 'M' or 'L': ");
-	// scanf("%c", &size);
-	getchar(size);	// User input 
-	putchar(size);	// Prints the character 
+	scanf("%c", &size);
+	// size = getchar();	// User input
+	// putchar(size);		// Prints the character
 
 	printf("Enter the number of persons it serves: ");
 	scanf("%d", &personItServes);
