@@ -25,7 +25,7 @@ int main() {
     // User input.
     char name[40];
     puts("Enter your name: ");
-    scanf("%[^\n]s", name);
+    scanf("%[^\n]%*c", name);
     printf("%s", name);
 
 	return 0;
