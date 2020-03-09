@@ -6,12 +6,10 @@ int main() {
     char str1[50], str2[50];
 
     puts("Enter first string: ");
-    scanf("%[^\n]s", str1);
-
-while ((getchar()) != '\n');    // Clear input buffer 
+    scanf("%[^\n]%*c", str1);
 
     puts("Enter second string: ");
-    scanf("%[^\n]s", str2);
+    scanf("%[^\n]%*c", str2);
 
     /* Append a blank space at the end of str1. */
     strcat(str1, " ");
@@ -23,4 +21,3 @@ while ((getchar()) != '\n');    // Clear input buffer
 
     return 0;
 }
-
