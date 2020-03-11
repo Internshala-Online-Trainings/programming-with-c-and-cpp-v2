@@ -41,14 +41,14 @@ int main() {
 
 	Person person;
 	person.fullName = "Rahul Kamal";
-	person.setPhoneNumber("+91-943135522");
+	person.setPhoneNumber("+91-9431");
 //	string phone = person.phoneNumber;		// protected: Cannot be accessed. Error. 
 	person.displayPersonDetails();
 
 	Student student;
 	student.id = 1;
 	student.fullName = "Aditya Sharma";
-	student.setPhoneNumber("+91-887700132");
+	student.setPhoneNumber("+91-8877");
 //	string phNo = student.phoneNumber;		// protected: Cannot be accessed. Error. 
 	student.displayStudentDetails();
 
