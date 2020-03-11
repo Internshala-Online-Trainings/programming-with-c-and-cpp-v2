@@ -23,7 +23,7 @@ int main() {
 
 	Person person; 
 	person.fullName = "Rahul Kamal"; 
-	person.setPhoneNumber("+91-943135522");	
+	person.setPhoneNumber("+91-9431");	
 	person.displayPersonDetails(); 
 
 	return 0;
