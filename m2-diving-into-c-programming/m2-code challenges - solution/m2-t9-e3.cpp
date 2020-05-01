@@ -34,7 +34,7 @@ int main() {
     return 0;
 }
 /*
- In the statement "scanf(%d, p + i)", "p + i" is the address of the memory location which is being incremented with each iteration.
+ In the statement "scanf(%f, p + i)", "p + i" is the address of the memory location which is being incremented with each iteration.
 
  In the first iteration where i = 0:
       -> p + i = p + 0 = p => This means the pointer is pointing to the address of the first element present in the allocated memory block.
