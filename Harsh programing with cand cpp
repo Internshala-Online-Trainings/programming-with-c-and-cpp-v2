@@ -1,0 +1,11 @@
+#include <stdio.h>;
+
+int main() {
+
+char name[10] ="India";
+char dollar ='$';
+ float gdp =2.2 ;
+int year =2015 ;
+printf("As economics reforms pickedup the pace, %S's GDP grew five feed to reach vs% C%. 1f trillion in %d (as per Imf estimates).", name,dollar,gdp,year1;
+return 0,
+} 
